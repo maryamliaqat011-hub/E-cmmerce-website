@@ -460,7 +460,7 @@ footer {
   }
 
   .navTop{
-    flex-direction: column; /* logo, search, offer neeche neeche */
+    flex-direction: column; 
     gap: 15px;
     align-items: center;
   }
@@ -472,17 +472,17 @@ footer {
   }
 
   .search{
-    display: flex;       /* ab chupay ga nahi */
+    display: flex;       
     width: 100%;
     max-width: 400px;
     margin: 0;
     padding: 10px 15px;
-    background-color: #333; /* mobile par dark */
+    background-color: #333; 
   }
 
   .searchInput{
     width: 100%;
-    color: white; /* text nazar aaye */
+    color: white; 
     outline: none;
   }
   .searchInput::placeholder{
@@ -501,30 +501,30 @@ footer {
   }
 
   .menuItem{
-    margin: 0; /* margin-right hata di */
+    margin: 0; 
     font-size: 14px;
     font-weight: 700;
-    white-space: nowrap; /* 2 line me na toote */
+    white-space: nowrap; 
   }
 
-  /* SLIDER */
+  
   .slider{
-    clip-path: none; /* tedha pan band */
+    clip-path: none; 
     background-size: cover;
   }
 
   .sliderWrapper{
-    width: 500%; /* 500vw ki jagah % */
+    width: 500%; 
   }
 
   .sliderItem{
-    width: 100%; /* 100vw ki jagah % */
+    width: 100%; 
     flex-direction: column;
     padding: 20px 0;
   }
 
   .sliderBg{
-    width: 300px; /* bara circle chota */
+    width: 300px; 
     height: 300px;
   }
 
@@ -534,11 +534,11 @@ footer {
   }
 
   .sliderTitle{
-    display: none; /* mobile par bara text chupao */
+    display: none; 
   }
 
   .sliderPrice{
-    position: static; /* absolute hata diya */
+    position: static; 
     font-size: 28px;
     border: none;
     margin: 10px 0;
@@ -546,13 +546,13 @@ footer {
   }
 
   .buyButton{
-    position: static; /* absolute hata diya */
+    position: static; 
     font-size: 18px;
     padding: 10px 20px;
     margin-top: 10px;
   }
 
-  /* FEATURES */
+  
   .features{
     flex-direction: column;
     padding: 40px 20px;
@@ -564,7 +564,7 @@ footer {
     height: auto;
   }
 
-  /* PRODUCT */
+  
   .product{
     height: auto;
     padding: 40px 20px;
@@ -580,7 +580,7 @@ footer {
   }
 
   .productDetails{
-    position: static; /* absolute hata diya - isi se hill raha tha */
+    position: static; 
     width: 100%;
     padding: 20px 0;
     text-align: center;
@@ -590,7 +590,7 @@ footer {
     font-size: 36px;
   }
   .productDesc{
-    font-size: 16px; /* font-style ki galti theek */
+    font-size: 16px; 
   }
 
   .colors, .sizes{
@@ -602,14 +602,14 @@ footer {
     margin-top: 10px;
   }
 
-  /* PAYMENT POPUP */
+  
   .payment{
     width: 95%;
     height: auto;
     padding: 20px;
   }
 
-  /* GALLERY */
+  
   .gallery{
     flex-direction: column;
     padding: 30px 20px;
@@ -619,7 +619,7 @@ footer {
     padding: 20px 0;
   }
 
-  /* NEW SEASON */
+  
   .newSeason{
     flex-direction: column;
   }
@@ -632,7 +632,7 @@ footer {
     padding: 40px 20px;
   }
 
-  /* FOOTER */
+  
   footer{
     flex-direction: column;
   }
